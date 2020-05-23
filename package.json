@@ -1,23 +1,24 @@
 {
-  "name": "tarball-extract",
+  "name": "calladownload-extract",
   "description": "A simple tarball download and extraction lib for node.",
-  "version": "0.0.5",
-  "author": "Mattie Kenny <hi@matsie.net>",
+  "version": "1.0.0",
+  "authors": [
+    "Mattie Kenny <hi@matsie.net>",
+    "Mark Wylde <me@markwylde.com>"
+  ],
   "keywords": [
     "tar",
-    "tarball"
+    "tarball",
+    "download"
   ],
-  "main": "tarball.js",
+  "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/matsieftw/tarball-extract.git"
+    "url": "git://github.com/markwylde/calladownload-extract.git"
   },
   "dependencies": {
-    "tar": "2.2.1",
-    "wget": "*"
+    "calladownload": "^1.0.0",
+    "tar": "^6.0.2"
   },
-  "license": "MIT",
-  "engines": {
-    "node": ">= 0.8.0"
-  }
+  "license": "MIT"
 }
