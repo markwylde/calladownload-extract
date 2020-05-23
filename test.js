@@ -1,4 +1,4 @@
-const tarball = require('./tarball');
+const tarball = require('./');
 
 const url = 'http://www.tcpdump.org/release/libpcap-1.3.0.tar.gz';
 
